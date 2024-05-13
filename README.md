@@ -1,1 +1,1 @@
-# Building-Real-Time-Sales-dashboard-using-Apache-Spark-kafka-and-python-Django
+# Building-Real-Time-Sales dashboard using Apache Spar,kafka and python-Django
