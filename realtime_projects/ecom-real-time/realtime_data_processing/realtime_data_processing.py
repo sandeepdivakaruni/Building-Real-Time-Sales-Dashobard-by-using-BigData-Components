@@ -140,7 +140,7 @@ if __name__ == "__main__":
         .trigger(processingTime='10 seconds') \
         .format("parquet") \
         .option("path", "hdfs://localhost:9000/raw/*.csv") \
-    #    .option("checkpointLocation", "orders-agg-write-stream-pre-checkpoint") \
+        .option("checkpointLocation", "orders-agg-write-stream-pre-checkpoint") \
         .partitionBy("partition_date", "partition_hour") \
         .start()
 
