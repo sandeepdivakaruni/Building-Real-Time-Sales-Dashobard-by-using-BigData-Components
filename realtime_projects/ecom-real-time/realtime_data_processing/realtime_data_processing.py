@@ -139,7 +139,7 @@ if __name__ == "__main__":
     orders_agg_write_stream_pre_hdfs = orders_df3.writeStream \
         .trigger(processingTime='10 seconds') \
         .format("parquet") \
-        .option("path", "hdfs://localhost:9000/raw/*.csv") \
+        .option("path", "hdfs://localhost:9000/raw/") \
         .option("checkpointLocation", "orders-agg-write-stream-pre-checkpoint") \
         .partitionBy("partition_date", "partition_hour") \
         .start()
