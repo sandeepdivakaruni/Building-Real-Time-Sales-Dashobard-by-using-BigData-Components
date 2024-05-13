@@ -1,1 +1,1 @@
-# Building-Real-Time-Sales dashboard using Apache Spark,Apache kafka and python-Django
+# Building-Real-Time-Sales dashboard by using BigData Components
